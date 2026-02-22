@@ -105,7 +105,7 @@ Easy description: **Full control --- build tools from scratch.**
 
 BaseTool is the abstract base class for all tools.
 
-Advantages: - Maximum flexibility - Custom execution logic - Advanced
+Advantages: -Async and await, Maximum flexibility - Custom execution logic - Advanced
 control
 
 When to use: - Complex tools - Custom agent frameworks
