@@ -12,8 +12,8 @@ world** instead of only generating text.
 
 ## 🤖 What LLMs are good at
 
--   🧠 Reasoning --- analyzing and thinking through problems\
--   ✍️ Language generation --- writing text, summaries, code\
+-   🧠 Reasoning --- analyzing and thinking through problems
+-   ✍️ Language generation --- writing text, summaries, code
 -   🎯 Decision making --- choosing next steps based on context
 
 ------------------------------------------------------------------------
@@ -40,12 +40,12 @@ do that through tools.
 
 Prebuilt and production-ready tools for common tasks.
 
-Examples: - DuckDuckGoSearchRun → Web search\
-- WikipediaQueryRun → Wikipedia lookup\
-- PythonREPLTool → Run Python code\
-- ShellTool → Execute shell commands\
-- RequestsGetTool → Call APIs\
-- GmailSendMessageTool → Send emails\
+Examples: - DuckDuckGoSearchRun → Web search
+- WikipediaQueryRun → Wikipedia lookup
+- PythonREPLTool → Run Python code
+- ShellTool → Execute shell commands
+- RequestsGetTool → Call APIs
+- GmailSendMessageTool → Send emails
 - SQLDatabaseQueryTool → Query databases
 
 Use when you need standard functionality quickly.
@@ -65,8 +65,8 @@ internal data
 
 An AI agent is an LLM-powered system that can:
 
-1.  Think\
-2.  Decide\
+1.  Think
+2.  Decide
 3.  Take actions
 
 We don't send tool code to the LLM --- only the schema (name, inputs,
@@ -124,10 +124,10 @@ When to use: - Complex tools - Custom agent frameworks
 # 🧰 What is a Toolkit?
 
 A **toolkit** is a **collection or bundle of related tools** that serve
-a common purpose.\
+a common purpose.
 It helps organize tools and makes them reusable.
 
-👉 Easy way to remember:\
+👉 Easy way to remember:
 **Toolkit = Folder of related tools**
 
 ------------------------------------------------------------------------
@@ -138,8 +138,8 @@ In LangChain, a toolkit might be **GoogleDriveToolkit**.
 
 It can contain multiple tools such as:
 
--   **GoogleDriveCreateFileTool** → Upload a file\
--   **GoogleDriveSearchTool** → Search files by name or content\
+-   **GoogleDriveCreateFileTool** → Upload a file
+-   **GoogleDriveSearchTool** → Search files by name or content
 -   **GoogleDriveReadFileTool** → Read file content
 
 Using a toolkit makes it easy to plug multiple related capabilities into
@@ -147,8 +147,8 @@ an agent at once.
 
 # 🧠 Key Takeaway
 
-LLM = Brain\
-Tools = Hands\
+LLM = Brain
+Tools = Hands
 Agent = Brain + Hands working together
 
 With tools, LLMs can act and solve real-world problems.
