@@ -1,0 +1,6 @@
+from langchain_community.tools import ShellTool
+shellTool = ShellTool()
+result = shellTool.invoke("echo Hello, World!")
+testResult_whoami=shellTool.invoke("whoami")
+print(result)
+print(testResult_whoami)
